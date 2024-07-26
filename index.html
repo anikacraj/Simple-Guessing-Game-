@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Gussing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="container">
+        <div class="header">
+            <button id="restart"> Restart </button>
+            <p id="attempts">Attempts: 0</p>
+          
+        </div>
+        <div class="main-div">
+            <h1 id="name"> Guessing Game </h1>
+            <div class="details">
+                
+               
+                <div id="small" class="small"></div>
+<div class="random" id="random">
+
+</div>
+
+<div id="shadow">
+   
+</div>
+
+            </div>
+            <div class="input">
+                <input type="text" id="input" placeholder=""> 
+                <input type="submit" id="submit" ></input>
+              
+                <h5 id="warning" style="margin-left: -10px;"> Enter The Number Between 1 to 20</h5>
+               
+                <!-- <div class="input-emoji"><h1>🤫</h1></div> -->
+           <div class="given-number" id="given-number1"><span  id="emoji">🤦‍♂️</span>Number Is Too High</div>
+           <div class="given-number" id="given-number2"> <span id="emoji">😒</span>Number Is Too Low</div>
+           <div class="given-number" id="given-number3"> Congress <span id="emoji">🤩</span>Correct Number</div>
+            </div>
+        </div>                                        
+    </div>
+  </div>  
+  <script src="script.js"></script>
+</body>
+</html>

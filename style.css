@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+margin: 0 auto;
+position: relative;
+background-color: cornflowerblue;
+}
+.header{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 18vh;
+}
+#name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+}
+.input{
+    margin-left: 50px;
+  
+}
+.input input{
+    position: relative;
+    height: 40px;
+    width: 70px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black
+   
+    
+}
+#warning {
+    margin-right: 35px;
+
+}
+.small{
+    display: none;
+}
+.random{
+    height: 60px;
+    width: 100px;
+    background-color: #ffffff31;
+    border: 2px solid black;
+    z-index: 1;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    opacity: 0;
+   text-align: center;
+   padding-top: 10px;
+    /* transition: all ease 0.8s;  */
+  margin-left: 70px;
+  font-size: 28px;
+  border: 1px solid black;
+  
+   
+}
+#shadow{
+    width: 100px;
+    height: 60px;
+   
+    position: absolute;
+border-radius: 6px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.614);
+    margin-top: -10.8vh;
+    right: 21.8vh;
+   
+    /* transition: all ease 0.8s; */
+
+}
+
+
+
+#restart{
+    padding: 1vh 2vh;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#attempts{
+    background-color: rgba(0, 0, 0, 0.224);
+    display: inline-block;
+    margin-left: 4px;
+    border: 2px solid  rgba(0, 0, 0, 0.224);
+    padding: 1vh 1vh;
+    position: relative;
+    z-index: 99;
+    border-radius: 10px;
+
+}
+
+#given-number1,#given-number2,#given-number3{
+
+    display: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: -23px;
+}
+#emoji{
+    font-size: 40px ;
+}
+
+@media screen and (max-width: 600px) {
+ 
+
+#shadow{
+    display: none;
+ 
+ }
+.random{
+    opacity: 0;
+    
+}
+.small{
+   display: block;
+        height: 60px;
+        width: 100px;
+        background-color: #ffffff31;
+        border: 2px solid black;
+        z-index: 1;
+        position: absolute;
+        border-radius: 6px;
+        margin-bottom: 4px;
+        opacity: 10;
+       text-align: center;
+       padding-top: 10px;
+        /* transition: all ease 0.8s;  */
+      margin-left: 70px;
+      font-size: 28px;
+      border: 1px solid black;
+      
+       
+    }
+
+.header{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10vh;
+}
+  }
